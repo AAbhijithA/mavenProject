@@ -14,5 +14,5 @@ WORKDIR /app
 COPY --from=maven_builder /app/target/application.jar ./
 COPY --from=maven_builder /app/target/classes ./
 
-CMD ["java", "-cp", "/app/target/classes", "com.example.app.App"]
+CMD ["sh", "-c", "java -cp /app/target/classes com.example.app.App"]
 #RUN java -Djarmode=layertools -jar application.jar extract
