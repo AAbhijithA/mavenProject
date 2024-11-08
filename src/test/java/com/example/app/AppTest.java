@@ -17,6 +17,6 @@ public class AppTest
         assertEquals(0, c.Subtract());
         assertEquals(1, c.Divide());
         assertEquals(16, c.Multiply());
-        assertEquals(true);
+        assertTrue(true);
     }
 }
