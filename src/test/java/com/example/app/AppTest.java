@@ -12,6 +12,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+        System.out.println(c.Add() + " " + c.Subtract() + " " + c.Divide() + " " + c.Multiply());
         assertEquals(8, c.Add());
         assertEquals(0, c.Subtract());
         assertEquals(1, c.Divide());

@@ -25,7 +25,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Calculator c = new Calculator(3, 4);
+        Calculator c = new Calculator(4, 4);
         System.out.println(c.Add() + " " + c.Divide() + " " + c.Subtract() + " " + c.Multiply());
         return;
     }
